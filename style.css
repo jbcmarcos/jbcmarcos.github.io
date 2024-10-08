@@ -1,0 +1,53 @@
+nav {
+    display: flex;                  /* Use flexbox */
+    justify-content: space-between; /* Space out items */
+    align-items: center;            /* Vertically center items */
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+/* Style for the logo or left item */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* Style for the unordered list */
+ul {
+    list-style-type: none;          /* Remove bullets */
+    margin: 0;                      /* Remove margin */
+    padding: 0;                     /* Remove padding */
+    display: flex;                  /* Display list items horizontally */
+    flex-wrap: wrap
+}
+
+/* Style for each list item */
+li {
+    margin-left: 20px;              /* Space between list items */
+}
+
+/* Style for links */
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: white;         /* Hover effect */
+    border-radius: 5px;
+}
+
+.me {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.me:hover {
+    background-color: transparent;  /* No background color change on hover */
+    border-radius: 0;               /* No border radius */
+}
